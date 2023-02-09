@@ -12,7 +12,7 @@ public class ArrayOutofBound {
                 System.out.println(value);
             }
         } catch (Exception e) {
-            System.out.println("Array index out of bound occured...");
+            System.out.println("Array index out of bound occured..." + e);
         }
     }
 
