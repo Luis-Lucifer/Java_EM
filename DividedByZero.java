@@ -7,7 +7,8 @@ public class DividedByZero {
             k = i/j;
         } catch (ArithmeticException e) {
             System.out.println("Can't divide by zero");
-            System.out.println(k);
+           
         }
+        System.out.println(k);
     }
 }
